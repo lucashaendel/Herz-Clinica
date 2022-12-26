@@ -1,0 +1,105 @@
+.about {
+  width: 90%;
+  align-items: center;
+  margin: 30px auto;
+}
+
+.box {
+  width: 100%;
+  height: 400px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  overflow: hidden;
+}
+
+.box-img {
+  width: 600px;
+  height: 400px;
+}
+
+.box-img img {
+  width: 600px;
+}
+
+.box-text p {
+  width: 600px;
+  font-size: 1.1rem;
+  background-color: $primary_blue;
+  color: #ffffff;
+  margin: 0;
+  padding: 120px;
+}
+
+.nosotros h2,
+.equipo h2,
+.cirujanos h2,
+.medicos h2 {
+  font-size: 2em;
+  color: $primary_blue;
+  border-bottom: 2px solid $primary_red;
+  margin-bottom: 10px;
+}
+
+.nosotros h2 {
+  width: 150px;
+}
+
+.equipo h2 {
+  width: 270px;
+}
+.cirujanos h2 {
+  width: 320px;
+}
+.medicos h2 {
+  width: 320px;
+}
+
+.left p {
+  background-color: $primary_red;
+}
+
+@media (max-width: 500px) {
+  .box {
+    width: 100%;
+    height: 60vh;
+    flex-direction: column;
+  }
+  .box-img {
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+  .box-text p {
+    width: 100%;
+    font-size: 1rem;
+    background-color: $primary_blue;
+    color: #ffffff;
+    margin: 0;
+    padding: 10px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 1023px) {
+  .box {
+    width: 100%;
+    height: 55vh;
+    flex-direction: column;
+  }
+  .box-img {
+    width: 100%;
+    height: 32vh;
+    img {
+      width: 100%;
+    }
+  }
+  .box-text p {
+    width: 100%;
+    font-size: 1rem;
+    background-color: $primary_blue;
+    color: #ffffff;
+    margin: 0;
+    padding: 5px;
+  }
+}

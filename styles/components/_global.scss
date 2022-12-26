@@ -1,0 +1,31 @@
+$primary_blue: #1c3d59;
+$primary_red: #d9043d;
+
+@font-face {
+  font-family: "Cinzel", serif;
+  font-family: "Montserrat", sans-serif;
+  src: url();
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+
+html {
+  width: 100%;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: #1c3d59;
+  font-size: 3em;
+  margin-top: 50px;
+  border-bottom: 2px solid #d9043d;
+  border-top: 2px solid #d9043d;
+  padding: 120px auto;
+}

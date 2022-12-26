@@ -1,0 +1,39 @@
+.questions {
+  width: 1200px;
+  background-color: #eaeaea;
+  padding: 20px;
+  margin: 30px auto;
+  h2 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  p {
+    font-size: 1em;
+    width: 1000px;
+    padding: 10px;
+  }
+}
+
+.questions:hover {
+  background-color: #cacaca;
+}
+
+@media (max-width: 500px) {
+  .questions {
+    width: 90%;
+    text-align: center;
+    p {
+      width: 100%;
+    }
+  }
+}
+
+@media (min-width: 501px) and (max-width: 1023px) {
+  .questions {
+    width: 90%;
+    text-align: center;
+    p {
+      width: 100%;
+    }
+  }
+}
